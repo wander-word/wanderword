@@ -1,0 +1,73 @@
+/*html {
+	-webkit-text-size-adjust: 100%;  Prevent font scaling in landscape while allowing user zoom 
+}*/
+
+main {
+	margin: 0 auto 100px auto;
+	width: 720px;
+}
+
+header {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+section {
+	margin: auto 10px;
+}
+
+i {
+	font-style: italic;
+}
+
+.header-image {
+	width: 100%;
+}
+
+.trail-stop {
+	margin-top: 15px;
+	
+	font-size: 1.5em;
+	font-family: Helvetica, Arial;
+}
+
+.poem-title {
+	margin-top: 15px;
+	font-family: Helvetica;
+	font-size: 2em;
+}
+
+.artist-bio-wrapper {
+	overflow: hidden;
+	margin-top: 25px;
+}
+
+.artist-name {
+	float: left;
+
+	font-family: Helvetica, Arial;
+	font-size: 1.4em;
+	font-style: italic;
+}
+
+.artist-img {
+	float: left;
+	width: 25%;
+	margin-right: 3%;
+}
+
+.artist-bio {
+	float: left;
+	width: 65%;
+	margin-top: 5px;
+	font-size: 1em;
+	font-family: Courier, serif;
+	line-height: 18px;
+}
+
+
+
+.poem-wrapper {
+	margin-top: 20px;
+}
