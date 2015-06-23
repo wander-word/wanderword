@@ -1,0 +1,18 @@
+.poem-header {
+	width: 300px;
+	margin: 30px auto 0 auto;
+	font-weight: bold;
+}
+
+#poem-5 .poem-sub-header {
+	width: 300px;
+	margin: 5px auto 0 auto;
+	font-family: Courier, serif;
+	font-style: italic;
+}
+
+#poem-5 .poem-content {
+	width: 300px;
+	margin: 15px auto 0 auto;
+	font-family: Courier, serif;
+}
