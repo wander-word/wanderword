@@ -66,8 +66,10 @@ i {
 	line-height: 18px;
 }
 
-
-
 .poem-wrapper {
 	margin-top: 20px;
+}
+
+.poem-content {
+	font-family: Courier, serif;
 }
