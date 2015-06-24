@@ -1,6 +1,6 @@
-/*html {
+html {
 	-webkit-text-size-adjust: 100%;  Prevent font scaling in landscape while allowing user zoom 
-}*/
+}
 
 main {
 	margin: 0 auto 100px auto;

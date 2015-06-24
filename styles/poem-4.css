@@ -1,15 +1,15 @@
 .poem-header {
-	margin: 30px auto 0 auto;
+	margin: 40px auto 0 auto;
 	font-weight: bold;
 }
 
-#poem-4 .poem-sub-header {
-	margin: 5px auto 0 auto;
+#poem-4 .poem-header {
 	font-family: Courier, serif;
+	font-size: 175%;
 	font-style: italic;
 }
 
 #poem-4 .poem-content {
 	margin: 15px auto 0 auto;
-	font-family: Courier, serif;
+	font-size: 135%;
 }
