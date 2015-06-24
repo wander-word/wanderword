@@ -21,6 +21,10 @@ i {
 	font-style: italic;
 }
 
+u {
+	text-decoration: underline;
+}
+
 .header-image {
 	width: 100%;
 }
@@ -64,6 +68,10 @@ i {
 	font-size: 1em;
 	font-family: Courier, serif;
 	line-height: 18px;
+}
+
+.artist-bio a { 
+	color: #000;
 }
 
 .poem-wrapper {
