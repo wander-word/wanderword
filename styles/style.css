@@ -76,6 +76,9 @@ u {
 
 .poem-wrapper {
 	margin-top: 20px;
+
+	/*android text hack*/
+	max-height: 5000em;
 }
 
 .poem-header {
