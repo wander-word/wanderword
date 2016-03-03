@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>WanderWord</title><meta name="description" content="WanderWord is a Brooklyn, NY based collective who invent and produce site-specific, interactive poetry events.  Our mission: to regale new audiences with forward-thinking blends of live performance, technology and anti-technology." />
+		<title>WanderWord</title>
+<meta name="description" content="WanderWord is a Brooklyn, NY based collective who invent and produce site-specific, interactive poetry events.  Our mission: to regale new audiences with forward-thinking blends of live performance, technology and anti-technology." />
 <meta name="keywords" content="WanderWord, wander word, susan brennan, solid sound, solid sound 2015, solid sound festival, wilco, interactive poetry, brooklyn poetry, festival poetry" />
-
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 		
-		<link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" />
+		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" />
 <link rel="stylesheet" type="text/css" href="http://cdn1.editmysite.com/editor/libraries/fancybox/fancybox.css?1234" />
 <link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/social-icons.css?buildtime=1234" media="screen,projection" />
-<link rel="stylesheet" type="text/css" href="files/main_style.css?1439066055" title="wsite-theme-css" />
+<link rel="stylesheet" type="text/css" href="files/main_style.css?1457040477" title="wsite-theme-css" />
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,200,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
 
@@ -40,7 +40,7 @@
 .wsite-product .wsite-product-price a {}
 </style>
 <style>
-.wsite-background {background-image: url('//cdn1.editmysite.com/uploads/5/7/2/2/57225527/background-images/91312244.jpg') !important;background-repeat: no-repeat !important;background-position: 50% 50% !important;background-size: 100% !important;background-color: transparent !important;background: inherit;}
+.wsite-background {background-image: url("//cdn1.editmysite.com/uploads/5/7/2/2/57225527/background-images/91312244.jpg") !important;background-repeat: no-repeat !important;background-position: 50% 50% !important;background-size: 100% !important;background-color: transparent !important;background: inherit;}
 body.wsite-background {background-attachment: fixed !important;}.wsite-background.wsite-custom-background{ background-size: cover !important}
 </style>
 		<script><!--
@@ -51,7 +51,7 @@ var STYLE_PREFIX = 'wsite';
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
 
 <script src="http://cdn2.editmysite.com/js/site/main.js?buildTime=1234"></script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/ftl.js?buildTime=1234"></script><script>_W.relinquish && _W.relinquish()</script>
-<script> _W.themeOptions = [];</script><script type="text/javascript"><!--
+<script> _W.themePlugins = [];</script><script type="text/javascript"><!--
 	var IS_ARCHIVE = 1;
 	
 	(function(jQuery){
@@ -59,10 +59,10 @@ var STYLE_PREFIX = 'wsite';
 			initPublishedFlyoutMenus(
 				[{"id":"685519731499768562","title":"Home","url":"index.html","target":""},{"id":"402090871700121702","title":"Projects","url":"projects.html","target":""},{"id":"487755349165633901","title":"Contact","url":"contact.html","target":""}],
 				"685519731499768562",
-				"<li class=\"wsite-menu-item-wrap\"><a href=\"#\"class=\"wsite-menu-item\">{{title}}<\/a><\/li>",
+				'',
 				'active',
 				false,
-				{"navigation\/flyout\/list":"{{!\n\tNOTES:\n\t- \"wsite-menu-wrap\" required on submenu wrapper\n\t- \"wsite-menu\" required on submenu element\n}}\n\n<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"{{!\n\tNOTES:\n\t- an id and \"wsite-menu-subitem-wrap\" class are required on the item wrap\n\t- a \"wsite-menu-subitem\" class is required on the item link\n}}\n\n<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a href=\"{{url}}\"\n\t\t{{#target}}target=\"{{target}}\"{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
+				{"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-item-wrap\"\n\t>\n\t<a href=\"{{url}}\"\n\t\t{{#target}}target=\"{{target}}\"{{\/target}}\n\t\tclass=\"wsite-menu-item\"\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required=\"{{.}}\"\n\t\t{{\/membership_required}}\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n","navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a href=\"{{url}}\"\n\t\t{{#target}}target=\"{{target}}\"{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
 				{}
 			)
 		}
@@ -78,16 +78,15 @@ var STYLE_PREFIX = 'wsite';
 		
 	</head>
 	<body class="landing-page  wsite-theme-light  wsite-page-index"><div class="body-wrap">
-	<input type="checkbox" id="nav-trigger" class="nav-trigger">
 
 	<div id="header">
-		<label for="nav-trigger" class="nav-trigger hamburger">
-			<span class="open-btn">
+		<div class="nav-trigger hamburger">
+			<div class="open-btn">
 				<span class="mobile"></span>
 				<span class="mobile"></span>
 				<span class="mobile"></span>
-			</span>
-		</label>
+			</div>
+		</div>
 		<div id="sitename"><span class="wsite-logo">
 
 	<a href="">
@@ -99,9 +98,7 @@ var STYLE_PREFIX = 'wsite';
 
 	<div id="wrapper">
 		<div class="bg-wrapper">
-			<div id="navigation">
-<ul class="wsite-menu-default">
-		
+			<div id="navigation"><ul class="wsite-menu-default">
 		<li id="active"
 			class="wsite-menu-item-wrap"
 			>
@@ -113,7 +110,6 @@ var STYLE_PREFIX = 'wsite';
 			</a>
 			
 		</li>
-		
 		<li id="pg402090871700121702"
 			class="wsite-menu-item-wrap"
 			>
@@ -123,9 +119,39 @@ var STYLE_PREFIX = 'wsite';
 				>
 				Projects
 			</a>
-			
-		</li>
+			<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-424265486748901183"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a href="solid-sound-festival-2015.html"
 		
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Solid Sound Festival 2015
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-382285328864619385"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a href="mass-moca-free-day-2016.html"
+		
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			MASS MoCA Free Day 2016
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+		</li>
 		<li id="pg487755349165633901"
 			class="wsite-menu-item-wrap"
 			>
@@ -146,7 +172,7 @@ var STYLE_PREFIX = 'wsite';
 	recreational poetry.
 </span></h2>
 						<p><span class="wsite-text wsite-headline-paragraph">
-	<strong>WanderWord is a Brooklyn, NY based collective<br />who invent and produce<br />site-specific,&nbsp;interactive&nbsp;poetry events.<br /><br />Our mission:&nbsp;to regale new audiences<br />with&nbsp;forward-thinking blends<br />of&nbsp;live performance,&nbsp;technology and anti-technology.</strong>
+	<strong>WanderWordz is a Brooklyn, NY based collective<br />who invent and produce<br />site-specific,&nbsp;interactive&nbsp;poetry events.<br /><br />Our mission:&nbsp;to regale new audiences<br />with&nbsp;forward-thinking blends<br />of&nbsp;live performance,&nbsp;technology and anti-technology.</strong>
 </span></p>	
 						<div class="button-wrap"><div style="text-align:left;"><div style="height: 0px; overflow: hidden;"></div>
 
@@ -176,9 +202,7 @@ var STYLE_PREFIX = 'wsite';
 	</div>
 
 	<div class="navmobile-wrapper">
-		<div id="navmobile" class="nav">
-<ul class="wsite-menu-default">
-		
+		<div id="navmobile" class="nav"><ul class="wsite-menu-default">
 		<li id="active"
 			class="wsite-menu-item-wrap"
 			>
@@ -190,7 +214,6 @@ var STYLE_PREFIX = 'wsite';
 			</a>
 			
 		</li>
-		
 		<li id="pg402090871700121702"
 			class="wsite-menu-item-wrap"
 			>
@@ -200,9 +223,39 @@ var STYLE_PREFIX = 'wsite';
 				>
 				Projects
 			</a>
-			
-		</li>
+			<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-424265486748901183"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a href="solid-sound-festival-2015.html"
 		
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Solid Sound Festival 2015
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-382285328864619385"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a href="mass-moca-free-day-2016.html"
+		
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			MASS MoCA Free Day 2016
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+		</li>
 		<li id="pg487755349165633901"
 			class="wsite-menu-item-wrap"
 			>
