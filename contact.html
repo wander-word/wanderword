@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>WanderWord - Contact</title><meta name="description" content="Get in touch with the folks at WanderWord!" />
+		<title>WanderWord - Contact</title>
+<meta name="description" content="Get in touch with the folks at WanderWord!" />
 <meta name="keywords" content="WanderWord, wander word, susan brennan, poetry, interactive poetry, solid sound, solid sound 2015, wilco, solid sound festival, poetry festival, poetry festivals, interactive poetry" />
-
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 		
-		<link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" />
+		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" />
 <link rel="stylesheet" type="text/css" href="http://cdn1.editmysite.com/editor/libraries/fancybox/fancybox.css?1234" />
 <link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/social-icons.css?buildtime=1234" media="screen,projection" />
-<link rel="stylesheet" type="text/css" href="files/main_style.css?1439066055" title="wsite-theme-css" />
+<link rel="stylesheet" type="text/css" href="files/main_style.css?1457040477" title="wsite-theme-css" />
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,200,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
 
@@ -40,7 +40,7 @@
 .wsite-product .wsite-product-price a {}
 </style>
 <style>
-.wsite-background {background-image: url('//cdn1.editmysite.com/uploads/5/7/2/2/57225527/background-images/1152642402.jpg') !important;background-repeat: no-repeat !important;background-position: 50% 50% !important;background-size: 100% !important;background-color: transparent !important;background: inherit;}
+.wsite-background {background-image: url("//cdn1.editmysite.com/uploads/5/7/2/2/57225527/background-images/1152642402.jpg") !important;background-repeat: no-repeat !important;background-position: 50% 50% !important;background-size: 100% !important;background-color: transparent !important;background: inherit;}
 body.wsite-background {background-attachment: fixed !important;}.wsite-background.wsite-custom-background{ background-size: cover !important}
 </style>
 		<script><!--
@@ -51,7 +51,7 @@ var STYLE_PREFIX = 'wsite';
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
 
 <script src="http://cdn2.editmysite.com/js/site/main.js?buildTime=1234"></script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/ftl.js?buildTime=1234"></script><script>_W.relinquish && _W.relinquish()</script>
-<script> _W.themeOptions = [];</script><script type="text/javascript"><!--
+<script> _W.themePlugins = [];</script><script type="text/javascript"><!--
 	var IS_ARCHIVE = 1;
 	
 	(function(jQuery){
@@ -59,10 +59,10 @@ var STYLE_PREFIX = 'wsite';
 			initPublishedFlyoutMenus(
 				[{"id":"685519731499768562","title":"Home","url":"index.html","target":""},{"id":"402090871700121702","title":"Projects","url":"projects.html","target":""},{"id":"487755349165633901","title":"Contact","url":"contact.html","target":""}],
 				"487755349165633901",
-				"<li class=\"wsite-menu-item-wrap\"><a href=\"#\"class=\"wsite-menu-item\">{{title}}<\/a><\/li>",
+				'',
 				'active',
 				false,
-				{"navigation\/flyout\/list":"{{!\n\tNOTES:\n\t- \"wsite-menu-wrap\" required on submenu wrapper\n\t- \"wsite-menu\" required on submenu element\n}}\n\n<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"{{!\n\tNOTES:\n\t- an id and \"wsite-menu-subitem-wrap\" class are required on the item wrap\n\t- a \"wsite-menu-subitem\" class is required on the item link\n}}\n\n<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a href=\"{{url}}\"\n\t\t{{#target}}target=\"{{target}}\"{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
+				{"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-item-wrap\"\n\t>\n\t<a href=\"{{url}}\"\n\t\t{{#target}}target=\"{{target}}\"{{\/target}}\n\t\tclass=\"wsite-menu-item\"\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required=\"{{.}}\"\n\t\t{{\/membership_required}}\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n","navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a href=\"{{url}}\"\n\t\t{{#target}}target=\"{{target}}\"{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
 				{}
 			)
 		}
@@ -77,21 +77,20 @@ var STYLE_PREFIX = 'wsite';
 </script>
 		
 	</head>
-	<body class="tall-header wsite-theme-light  wsite-page-contact"><div class="body-wrap">
-	<input type="checkbox" id="nav-trigger" class="nav-trigger">
+	<body class="tall-header  wsite-page-contact wsite-theme-light"><div class="body-wrap">
 
 	<div id="header">
-		<label for="nav-trigger" class="nav-trigger hamburger">
-			<span class="open-btn">
+		<div class="nav-trigger hamburger">
+			<div class="open-btn">
 				<span class="mobile"></span>
 				<span class="mobile"></span>
 				<span class="mobile"></span>
-			</span>
-		</label>
+			</div>
+		</div>
 		<div id="sitename"><span class="wsite-logo">
 
 	<a href="">
-		<img src="http://wanderword.weebly.com/uploads/5/7/2/2/57225527/9586287.gif" />
+		<img src="uploads/5/7/2/2/57225527/9586287.gif" />
 	</a>
 
 </span></div>
@@ -99,9 +98,7 @@ var STYLE_PREFIX = 'wsite';
 
 	<div id="wrapper">
 		<div class="bg-wrapper">
-			<div id="navigation">
-<ul class="wsite-menu-default">
-		
+			<div id="navigation"><ul class="wsite-menu-default">
 		<li id="pg685519731499768562"
 			class="wsite-menu-item-wrap"
 			>
@@ -113,7 +110,6 @@ var STYLE_PREFIX = 'wsite';
 			</a>
 			
 		</li>
-		
 		<li id="pg402090871700121702"
 			class="wsite-menu-item-wrap"
 			>
@@ -123,9 +119,39 @@ var STYLE_PREFIX = 'wsite';
 				>
 				Projects
 			</a>
-			
-		</li>
+			<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-424265486748901183"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a href="solid-sound-festival-2015.html"
 		
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Solid Sound Festival 2015
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-382285328864619385"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a href="mass-moca-free-day-2016.html"
+		
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			MASS MoCA Free Day 2016
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+		</li>
 		<li id="active"
 			class="wsite-menu-item-wrap"
 			>
@@ -150,6 +176,37 @@ var STYLE_PREFIX = 'wsite';
 			</div>
 			<div id="content-wrapper">
 				<div id="content"><div id='wsite-content' class='wsite-elements wsite-not-footer'>
+<div>
+				<form enctype="multipart/form-data" action="//www.weebly.com/weebly/apps/formSubmit.php"
+				method="POST" id="form-251128706502602728">
+					<div id="251128706502602728-form-parent" class="wsite-form-container"
+					style="margin-top:10px;">
+						<ul class="formlist" id="251128706502602728-form-list">
+							<h2 class="wsite-content-title" style="text-align:left;"><font size="4">Mind if we email you every blue moon about our projects?</font></h2>
+
+<div><div class="wsite-form-field" style="margin:0px 0px 5px 0px;">
+				<label class="wsite-form-label" for="input-520039238560588305">Email <span class="form-required">*</span></label>
+				<div class="wsite-form-input-container">
+					<input id="input-520039238560588305" class="wsite-form-input wsite-input wsite-input-width-370px" type="text" name="_u520039238560588305" />
+				</div>
+				<div id="instructions-520039238560588305" class="wsite-form-instructions" style="display:none;"></div>
+			</div></div>
+						</ul>
+					</div>
+					<div style="display:none; visibility:hidden;">
+						<input type="text" name="wsite_subject" />
+					</div>
+					<div style="text-align:left; margin-top:10px; margin-bottom:10px;">
+						<input type="hidden" name="form_version" value="2" />
+						<input type="hidden" name="wsite_approved" id="wsite-approved" value="approved" />
+						<input type="hidden" name="ucfid" value="251128706502602728" />
+						<input type='submit' style='position:absolute;top:0;left:-9999px;width:1px;height:1px' /><a class='wsite-button' onclick="document.getElementById('form-251128706502602728').submit()"><span class='wsite-button-inner'>Subscribe to Newsletter</span></a>
+					</div>
+				</form>
+			
+
+			</div>
+
 <div style="text-align:center;"><div style="height:0px;overflow:hidden"></div>
 
 <span class="wsite-social wsite-social-default"><a class='first-child wsite-social-item wsite-social-facebook' href='http://facebook.com/wanderwordpoetry' target='_blank'><span class='wsite-social-item-inner'></span></a><a class='wsite-social-item wsite-social-twitter' href='http://twitter.com/wanderwordpoets' target='_blank'><span class='wsite-social-item-inner'></span></a><a class='last-child wsite-social-item wsite-social-mail' href='mailto:wanderwordpoetry@gmail.com' target='_blank'><span class='wsite-social-item-inner'></span></a></span>
@@ -164,9 +221,7 @@ var STYLE_PREFIX = 'wsite';
 	</div>
 
 	<div class="navmobile-wrapper">
-		<div id="navmobile" class="nav">
-<ul class="wsite-menu-default">
-		
+		<div id="navmobile" class="nav"><ul class="wsite-menu-default">
 		<li id="pg685519731499768562"
 			class="wsite-menu-item-wrap"
 			>
@@ -178,7 +233,6 @@ var STYLE_PREFIX = 'wsite';
 			</a>
 			
 		</li>
-		
 		<li id="pg402090871700121702"
 			class="wsite-menu-item-wrap"
 			>
@@ -188,9 +242,39 @@ var STYLE_PREFIX = 'wsite';
 				>
 				Projects
 			</a>
-			
-		</li>
+			<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-424265486748901183"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a href="solid-sound-festival-2015.html"
 		
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Solid Sound Festival 2015
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-382285328864619385"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a href="mass-moca-free-day-2016.html"
+		
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			MASS MoCA Free Day 2016
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+		</li>
 		<li id="active"
 			class="wsite-menu-item-wrap"
 			>
